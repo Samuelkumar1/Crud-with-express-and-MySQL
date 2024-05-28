@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select one </title>
+</head>
+<body>
+    <h2>Select option to change</h2>
+    <form method="GET" action="/users/<%=user.id%>/editName">
+        <button>Name</button>
+    </form>
+    <form  method="GET" action="/users/<%=user.id%>/editEmail">
+        <button>Email</button>
+    </form>
+    <form  method="GET" action="/users/<%=user.id%>/changePassword">
+        <button>change password</button>
+    </form>
+</body>
+</html>
